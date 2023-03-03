@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>button-mp3</title>
+  </head>
+  <body>
+    
+    <h1 id="txtM" class="txtNonSelectionable">Meme Sound</h1>
+    
+  <div id="allMeme">
+    <audio id="mp3uwu" src="mp3\uwu-sound-effect.mp3"></audio>
+    <img id="uwu" class="txtNonSelectionable bouton" src="images\MOREmoji_uwu.svg.png" onclick="mp3uwu.play();">
+    
+    <audio id="homagade" src="mp3/vine-boom-spamoh-my-god-spam-and-siren-meme-disaster.mp3"></audio>
+    <img class="txtNonSelectionable bouton" src="images/téléchargement.jfif" onclick="homagade.play();">
+  </div>
+  
+  <!-- bonnus🔴 -->
+      <div id="bonnus">
+      <audio id="glitchHop" src="mp3/glitch-hop-or-110bpm-tristam-till-its-over-monstercat-release.mp3" controls>
+        <a href="mp3/glitch-hop-or-110bpm-tristam-till-its-over-monstercat-release.mp3"></a>
+      </audio>
+      
+          <audio id="clique" src="mp3/click-sound-effect-hd.mp3"></audio>
+          <button id="clickSound" class="txtNonSelectionable" onclick="clique.play();">click</button>
+      </div>
+  
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

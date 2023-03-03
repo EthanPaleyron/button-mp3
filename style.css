@@ -1,0 +1,65 @@
+.txtNonSelectionable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+body {
+  background-color: wheat;
+}
+
+#txtM {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  -webkit-text-stroke: black 4px;
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#allMeme {
+  margin: 0 110px 0 110px;
+  background-color: rgb(226, 205, 167);
+  border-radius: 20px;
+  height: auto;
+  display: table;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouton {
+  margin: 50px;
+  background-color: whitesmoke;
+  border: solid 4px;
+  border-radius: 50px;
+  height: 100px;
+  padding: 15px;
+}
+
+#bonnus {
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#glitchHop {
+  border: solid;
+  border-radius: 50px;
+  align-items: center;
+}
+
+#clickSound {
+  margin-left: 20px;
+  font-size: 50px;
+  border: solid 3px;
+}
+
+#clickSound:hover {
+  background-color: #E5E5E5;
+}
